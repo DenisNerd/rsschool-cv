@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+body {
+	font-family: 'Fraunces', serif;
+	background-color: bisque;
+	padding: 100px 0; 
+}
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px;
+}
+.container {
+
+	width: 800px;
+	min-height:1000px;
+	border: 10px solid #7B68EE;
+	border-radius: 35px;
+margin: 0 auto;
+background: #F0FFFF;
+ }
+
+.header {
+
+height: 200 px;
+
+}
+
+.title-pic {
+	
+	
+display: flex;
+flex-direction: column;
+padding-left: 60px;
+width: 60%;
+height: 100%;
+font-size: 25px;
+		
+}
+
+.userpic {
+	
+	padding-top: 20px;
+	width: 100px;
+	float: right;
+	padding-right: 120px;
+	
+}
+.ava {
+	
+	width:	200px;
+	height: 250px;
+	
+}
+
+.hr1 {
+	margin-top: 130px;
+	color: blue;
+}
+
+P {
+	padding-left: 20px;
+}
+.First_nav {
+	display: inline;
+	margin-right: 80px;
+	padding: 10px;
+	font-weight: bold;
+	border-right: 1px solid;
+	margin-bottom: 10px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+.nav li a:hover {
+	color: rgb(0, 134, 139);
+	
+}
+h2 {
+	text-align: center;
+}
+.Skillsli li:hover {
+	transition:transform .5s ease;
+	transform: translateX(10px);
+
+}
+
+.img_social {
+	width: 70px;
+	height: 70px ;;
+}
